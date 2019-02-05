@@ -1,122 +1,39 @@
-[
-    {
-        "id": "C01",
-        "name": "Company 1",
-        "plant": [{
-            "id": "C01P01",
-            "name": "Plant 101",
-            "room": [{
-                "id": "C01P01R01",
-                "name": "Room 10101"
-            },
-            {
-                "id": "C01P01R02",
-                "name": "Room 10102"
-            },
-            {
-                "id": "C01P01R03",
-                "name": "Room 10103"
-            }]
-        },
-        {
-            "id":  "C01P02",
-            "name": "Plant 102",
-            "room": [{
-                "id": "C01P02R01",
-                "name": "Room 10201"
-            },
-            {
-                "id": "C01P02R02",
-                "name": "Room 10202"
-            },
-            {
-                "id": "C01P02R03",
-                "name": "Room 10203"
-            },
-            {
-                "id": "C01P02R04",
-                "name": "Room 10204"
-            },
-            {
-                "id": "C01P02R05",
-                "name": "Room 10205"
-            }]
-        }]
-   },
-   {
-        "id": "C02",
-        "name": "Company 2",
-		"plant": [{
-            "id": "C02P03",
-            "name": "Plant 203",
-            "room": [{
-                "id": "C02P03R01",
-                "name": "Room 20301"
-            },
-            {
-                "id": "C02P03R02",
-                "name": "Room 20302"
-            },
-            {
-                "id": "C02P03R03",
-                "name": "Room 20303"
-            },
-            {
-                "id": "C02P03R04",
-                "name": "Room 20304"
-            },
-            {
-                "id": "C02P03R05",
-                "name": "Room 20305"
-            },
-            {
-                "id": "C02P03R06",
-                "name": "Room 20306"
-            },
-            {
-                "id": "C02P03R07",
-                "name": "Room 20307"
-            }]
-        },
-        {
-            "id":  "C02P04",
-            "name": "Plant 204",
-            "room": [{
-                "id": "C02P04R01",
-                "name": "Room 20401"
-            },
-            {
-                "id": "C02P04R02",
-                "name": "Room 20402"
-            },
-            {
-                "id": "C02P04R03",
-                "name": "Room 20403"
-            },
-            {
-                "id": "C02P04R04",
-                "name": "Room 20404"
-            },
-            {
-                "id": "C02P04R05",
-                "name": "Room 20405"
-            },
-            {
-                "id": "C02P04R06",
-                "name": "Room 20406"
-            },
-            {
-                "id": "C02P04R07",
-                "name": "Room 20407"
-            },
-            {
-                "id": "C02P04R08",
-                "name": "Room 20408"
-            },
-            {
-                "id": "C02P04R09",
-                "name": "Room 20409"
-            }]
-        }]
-    }
-]
+{
+	"companies":[
+		{"id": "C01", "name": "Company 1"},
+		{"id": "C02", "name": "Company 2"}
+	],
+	"plants":[
+		{"id": "C01P01", "name": "Plant 101", "compId": "C01"},
+		{"id": "C01P02", "name": "Plant 102", "compId": "C01"},
+		{"id": "C02P03", "name": "Plant 203", "compId": "C02"},
+		{"id": "C02P04", "name": "Plant 204", "compId": "C02"},
+		{"id": "C02P05", "name": "Plant 205", "compId": "C02"}
+	],
+	"rooms":[
+		{"id": "C01P01R01", "name": "Room 10101", "compId": "C01", "plantId": "C01P01"},
+		{"id": "C01P01R02", "name": "Room 10102", "compId": "C01", "plantId": "C01P01"},
+		{"id": "C01P01R03", "name": "Room 10103", "compId": "C01", "plantId": "C01P01"},
+		{"id": "C01P02R01", "name": "Room 10201", "compId": "C01", "plantId": "C01P02"},
+		{"id": "C01P02R02", "name": "Room 10202", "compId": "C01", "plantId": "C01P02"},
+		{"id": "C01P02R03", "name": "Room 10203", "compId": "C01", "plantId": "C01P02"},
+		{"id": "C01P02R04", "name": "Room 10204", "compId": "C01", "plantId": "C01P02"},
+		{"id": "C01P02R05", "name": "Room 10205", "compId": "C01", "plantId": "C01P02"},
+		{"id": "C02P03R01", "name": "Room 20301", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R02", "name": "Room 20302", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R03", "name": "Room 20303", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R04", "name": "Room 20304", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R05", "name": "Room 20305", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R06", "name": "Room 20306", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P03R07", "name": "Room 20307", "compId": "C02", "plantId": "C02P03"},
+		{"id": "C02P04R01", "name": "Room 20401", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R02", "name": "Room 20402", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R03", "name": "Room 20403", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R04", "name": "Room 20404", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R05", "name": "Room 20405", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R06", "name": "Room 20406", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R07", "name": "Room 20407", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R08", "name": "Room 20408", "compId": "C02", "plantId": "C02P04"},
+		{"id": "C02P04R09", "name": "Room 20409", "compId": "C02", "plantId": "C02P04"}
+	]
+}
