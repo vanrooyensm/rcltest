@@ -80,7 +80,43 @@
         },
         {
             "id":  "C02P04",
-            "name": "Plant 204"
+            "name": "Plant 204",
+            "room": [{
+                "id": "C02P04R01",
+                "name": "Room 20401"
+            },
+            {
+                "id": "C02P04R02",
+                "name": "Room 20402"
+            },
+            {
+                "id": "C02P04R03",
+                "name": "Room 20403"
+            },
+            {
+                "id": "C02P04R04",
+                "name": "Room 20404"
+            },
+            {
+                "id": "C02P04R05",
+                "name": "Room 20405"
+            },
+            {
+                "id": "C02P04R06",
+                "name": "Room 20406"
+            },
+            {
+                "id": "C02P04R07",
+                "name": "Room 20407"
+            },
+            {
+                "id": "C02P04R08",
+                "name": "Room 20408"
+            },
+            {
+                "id": "C02P04R09",
+                "name": "Room 20409"
+            }]
         }]
     }
 ]
