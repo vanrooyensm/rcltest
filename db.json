@@ -4,7 +4,19 @@
         "name": "Company 1",
         "plant": [{
             "id": "C01P01",
-            "name": "Plant 101"
+            "name": "Plant 101",
+            "room": [{
+                "id": "C01P01R01",
+                "name": "Room 10101"
+            },
+            {
+                "id": "C01P01R02",
+                "name": "Room 10102"
+            },
+            {
+                "id": "C01P01R03",
+                "name": "Room 10103"
+            }]
         },
         {
             "id":  "C01P02",
