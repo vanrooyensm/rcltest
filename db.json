@@ -20,7 +20,27 @@
         },
         {
             "id":  "C01P02",
-            "name": "Plant 102"
+            "name": "Plant 102",
+            "room": [{
+                "id": "C01P02R01",
+                "name": "Room 10201"
+            },
+            {
+                "id": "C01P02R02",
+                "name": "Room 10202"
+            },
+            {
+                "id": "C01P02R03",
+                "name": "Room 10203"
+            },
+            {
+                "id": "C01P02R04",
+                "name": "Room 10204"
+            },
+            {
+                "id": "C01P02R05",
+                "name": "Room 10205"
+            }]
         }]
    },
    {
