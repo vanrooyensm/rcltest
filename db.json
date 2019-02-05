@@ -1,16 +1,25 @@
 {
+	
 	"companies":[
+		{"id": "1010", "name": "RCL Group Services ({P) L"}
+	],
+	"plants":[
+		{"id": "4200", "name": "RCL Group Services", "compId": "1010"}
+	],
+	"rooms":[
+	],
+	"companies2":[
 		{"id": "C01", "name": "Company 1"},
 		{"id": "C02", "name": "Company 2"}
 	],
-	"plants":[
+	"plants2":[
 		{"id": "C01P01", "name": "Plant 101", "compId": "C01"},
 		{"id": "C01P02", "name": "Plant 102", "compId": "C01"},
 		{"id": "C02P03", "name": "Plant 203", "compId": "C02"},
 		{"id": "C02P04", "name": "Plant 204", "compId": "C02"},
 		{"id": "C02P05", "name": "Plant 205", "compId": "C02"}
 	],
-	"rooms":[
+	"rooms2":[
 		{"id": "C01P01R01", "name": "Room 10101", "compId": "C01", "plantId": "C01P01"},
 		{"id": "C01P01R02", "name": "Room 10102", "compId": "C01", "plantId": "C01P01"},
 		{"id": "C01P01R03", "name": "Room 10103", "compId": "C01", "plantId": "C01P01"},
