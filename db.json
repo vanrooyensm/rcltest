@@ -1,6 +1,6 @@
 {
 	"companies":[
-		{"id": "1010", "name": "RCL Group Services \(P\) L"}
+		{"id": "1010", "name": "RCL Group Services (P) L"}
 	],
 	"plants":[
 		{"id": "4200", "name": "RCL Group Services", "compId": "1010"}
