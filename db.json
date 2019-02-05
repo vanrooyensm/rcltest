@@ -2,10 +2,10 @@
     {
         "id": "C01",
         "name": "Company 1",
-        "plant": {
+        "plant": [{
             "id": "C01P01",
             "name": "Plant 101",
-            "room": {
+            "room": [{
                 "id": "C01P01R01",
                 "name": "Room 10101"
             },
@@ -16,12 +16,12 @@
             {
                 "id": "C01P01R03",
                 "name": "Room 10103"
-            }
+            }]
         },
         {
             "id":  "C01P02",
             "name": "Plant 102",
-            "room": {
+            "room": [{
                 "id": "C01P02R01",
                 "name": "Room 10201"
             },
@@ -40,16 +40,16 @@
             {
                 "id": "C01P02R05",
                 "name": "Room 10205"
-            }
-        }
+            }]
+        }]
    },
    {
         "id": "C02",
         "name": "Company 2",
-        "plant": {
+        "plant": [{
             "id": "C02P03",
             "name": "Plant 203",
-            "room": {
+            "room": [{
                 "id": "C02P03R01",
                 "name": "Room 20301"
             },
@@ -76,12 +76,12 @@
             {
                 "id": "C02P03R07",
                 "name": "Room 20307"
-            }
+            }]
         },
         {
             "id":  "C02P04",
             "name": "Plant 204",
-            "room": {
+            "room": [{
                 "id": "C02P04R01",
                 "name": "Room 20401"
             },
@@ -116,7 +116,7 @@
             {
                 "id": "C02P04R09",
                 "name": "Room 20409"
-            }
-        }
+            }]
+        }]
     }
 ]
