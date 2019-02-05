@@ -1,10 +1,26 @@
 [
     {
         "id": "C01",
-        "name": "Company 1"
+        "name": "Company 1",
+        "plant": [{
+            "id": "C01P01",
+            "name": "Plant 101"
+        },
+        {
+            "id":  "C01P02",
+            "name": "Plant 102"
+        }]
    },
    {
         "id": "C02",
-        "name": "Company 2"
+        "name": "Company 2",
+		"plant": [{
+            "id": "C02P03",
+            "name": "Plant 203"
+        },
+        {
+            "id":  "C02P04",
+            "name": "Plant 204"
+        }]
     }
 ]
