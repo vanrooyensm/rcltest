@@ -48,7 +48,35 @@
         "name": "Company 2",
 		"plant": [{
             "id": "C02P03",
-            "name": "Plant 203"
+            "name": "Plant 203",
+            "room": [{
+                "id": "C02P03R01",
+                "name": "Room 20301"
+            },
+            {
+                "id": "C02P03R02",
+                "name": "Room 20302"
+            },
+            {
+                "id": "C02P03R03",
+                "name": "Room 20303"
+            },
+            {
+                "id": "C02P03R04",
+                "name": "Room 20304"
+            },
+            {
+                "id": "C02P03R05",
+                "name": "Room 20305"
+            },
+            {
+                "id": "C02P03R06",
+                "name": "Room 20306"
+            },
+            {
+                "id": "C02P03R07",
+                "name": "Room 20307"
+            }]
         },
         {
             "id":  "C02P04",
