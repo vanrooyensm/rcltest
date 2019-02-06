@@ -4,5 +4,9 @@
 	],
 	"plants":[
 		{"id": "4200", "name": "RCL Group Services", "compId": "1010"}
+	],
+	"assets":[
+		{"CoCd": "1010", "Plnt": "4200", "Asset": "3017623", "Asset description": "Desk Grey Kronowork top wth keywork legs", "Qty": "1", "Room": ""},
+		{"CoCd": "1010", "Plnt": "4200", "Asset": "3017624", "Asset description": "Desk Grey Kronowork top wth keywork legs", "Qty": "1", "Room": ""}
 	]
 }
