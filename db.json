@@ -5,7 +5,8 @@
 	],
 	"plants":[
 		{"id": "4200", "name": "RCL Group Services", "compId": "1010"},
-		{"id": "9090", "name": "Test Plant", "compId": "9000"}
+		{"id": "9090", "name": "Test Plant 1", "compId": "9000"},
+		{"id": "9091", "name": "Test Plant 2", "compId": "9000"}
 	],
 	"rooms":[]
 }
