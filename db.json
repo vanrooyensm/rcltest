@@ -1,9 +1,11 @@
 {
 	"companies":[
-		{"id": "1010", "name": "RCL Group Services (P) L"}
+		{"id": "1010", "name": "RCL Group Services (P) L"},
+		{"id": "9000", "name": "Test Company"}
 	],
 	"plants":[
 		{"id": "4200", "name": "RCL Group Services", "compId": "1010"}
+		{"id": "9090", "name": "Test Plant", "compId": "9000"}
 	],
 	"rooms":[]
 }
